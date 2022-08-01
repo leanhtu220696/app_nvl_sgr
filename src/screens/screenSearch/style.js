@@ -1,0 +1,48 @@
+import {StyleSheet,Dimensions, Button} from 'react-native';
+const {width,height} = Dimensions.get('screen');
+export const stylesXs = StyleSheet.create({
+    backgroud:{
+        width:width,
+        height:height,
+    },
+    header:{
+        width:width,
+        height:height*0.08,
+        backgroundColor:'#333333',
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    logo:{
+        width:width*0.3,
+        height:height*0.045,
+    },
+    content:{
+        marginTop:height*0.35
+    },
+    viewedit:{
+        width:width,
+        alignItems:'center',
+    },
+    edit:{
+        width:width*0.78
+    },
+    button:{
+        marginTop:height*0.02
+    },
+    editsearch:{
+        width:width*0.68,
+        backgroundColor:'#ffffff',
+        borderTopLeftRadius:20,
+        borderBottomLeftRadius:20,
+        paddingLeft:width*0.07,
+        fontSize:13,
+        color:'#555555',
+    },
+    btnpass:{
+        width:width*0.1,
+        paddingLeft:width*0.02,
+        backgroundColor:'#ffffff',
+        borderTopRightRadius:20,
+        borderBottomRightRadius:20,
+    }
+})
